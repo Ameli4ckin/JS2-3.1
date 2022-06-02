@@ -33,6 +33,46 @@ button{
 .btn-cart, .logo{
     align-self: center;
 }
+.product-bio {
+    display: flex;
+}
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.product-title {
+    margin-bottom: 20px;
+}
+.product-desc {
+    margin-left: 20px;
+}
+.right-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50px;
+    margin-right: 10px;
+}
+.del-btn {
+    width: 40px;
+    height: 30px;
+}
+.cart-block {
+    position: absolute;
+    padding: 10px 10px 0 10px;
+    width: 300px;
+    min-height: 50px;
+    background-color: #fff;
+    color: black;
+    margin-top: 10px;
+    margin-left: -150px;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+.invisible {
+    display: none;
+}
 .products{
     column-gap: 30px;
     display: grid;
